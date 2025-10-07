@@ -107,29 +107,17 @@ python -c "from transformers import AutoTokenizer, AutoModelForSequenceClassific
 
 ### Quick Start
 
-1. **Data Collection**
+For a comprehensive example, start with:
 ```python
-# Run the scraping notebook
-jupyter notebook scraping.ipynb
+# Run the example notebook to see the complete workflow
+jupyter notebook EXAMPLE_USAGE.ipynb
 ```
 
-2. **Topic Modeling**
-```python
-# Analyze topics in health articles
-jupyter notebook Topic_modelling.ipynb
-```
+### Detailed Setup
 
-3. **Emotion Analysis**
-```python
-# Classify emotions in articles
-jupyter notebook roberta.ipynb
-```
-
-4. **Baseline Comparison**
-```python
-# Compare with traditional ML approaches
-jupyter notebook baseline.ipynb
-```
+For detailed installation and setup instructions, see:
+- **[SETUP.md](SETUP.md)** - Complete installation guide
+- **[PIPELINE.md](PIPELINE.md)** - Step-by-step pipeline explanation
 
 ### Pipeline Execution
 
@@ -141,6 +129,32 @@ The complete analysis pipeline can be run in sequence:
 4. `roberta.ipynb` - Advanced emotion and bias classification
 5. `baseline.ipynb` - Traditional ML baseline comparison
 6. `viz.ipynb` - Visualization and results analysis
+
+### Individual Components
+
+**Data Collection**
+```python
+# Run the scraping notebook
+jupyter notebook scraping.ipynb
+```
+
+**Topic Modeling**
+```python
+# Analyze topics in health articles
+jupyter notebook Topic_modelling.ipynb
+```
+
+**Emotion Analysis**
+```python
+# Classify emotions in articles
+jupyter notebook roberta.ipynb
+```
+
+**Baseline Comparison**
+```python
+# Compare with traditional ML approaches
+jupyter notebook baseline.ipynb
+```
 
 ## 📈 Results
 
